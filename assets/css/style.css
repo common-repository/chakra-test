@@ -1,0 +1,71 @@
+#chakra-structure .add-chakra-group {
+    box-shadow: 0 1px 5px rgb(0 0 0 / 15%);
+    border-radius: 0.5rem;
+    width: 97%;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+#chakra-structure .add-chakra-group input , #chakra-structure .add-chakra-group select {
+    width: 100%;
+    height: 40px;
+    margin-bottom:10px;
+    max-width: 100%;
+}
+.show-group-first, .show-group-second, .add-group-third{
+    display: none;
+}
+.outside_div_chakra .group_chk {
+    box-shadow: 0 1px 5px rgb(0 0 0 / 15%);
+    border-radius: 0.5rem;
+    width: 94%;
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    transition:.5s ease-in;
+}
+#chakra-structure h3{
+    font-size: 16px;
+}
+#chakra-structure p{
+    font-size: 13px;
+}
+.outside_div_chakra .group_chk a{
+    background: darkorange;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 10px;
+    margin-left: 5px;
+    display: none;
+    transition:.5s ease-in;
+}
+.outside_div_chakra .group_chk:hover a{
+    display: inline-block;
+}
+.chk_helptool {
+    background: lightgray;
+    text-align: center;
+}
+.chk_for_second, .chk_for_third, .chk_for_forth {
+    display: none;
+}
+
+.chk_for_first span, .chk_for_second span, .chk_for_third span, .chk_for_forth span {
+    background: darkorange;
+    color: #fff;
+    padding: 4px 8px;
+    margin-right: 10px;
+}
+.add-chakra-group .button.active, .add-chakra-group .button.active:hover {
+    background: darkorange;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.group_chk small {
+    background: antiquewhite;
+    margin-right: 10px;
+}
+
